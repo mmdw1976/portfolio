@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectList from '../components/projects/ProjectList';
 
 import './Home.css';
 
@@ -11,6 +12,7 @@ const Home = () => {
         made with modern JavaScript, HTML CSS and JavaScript, and React. Click
         on the link to go to the project of your choice.
       </p>
+      <ProjectList />
     </section>
   );
 };
