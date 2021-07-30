@@ -13,9 +13,16 @@ const PROJECTS = [
     {
         id: 2,
         image: '/images/github-finder.jpg',
-        name: 'GitHub finder React',
+        name: 'React GitHub finder',
         content: 'Deze GitHub finder site is ontworpen met React en React-Hooks. De Hooks die in deze site worden gebruikt zijn onderandere: useContext, useState, useReducer en useEffect. De api die gebruikt wordt is die van GitHub. Met deze site kun je gebruikers zoekn op GitHub.',
         siteLink: 'http://github-finder.m-webdesigner.com/'
+    },
+    {
+        id: 3,
+        image: '/images/contact-keeper.jpg',
+        name: 'React Contact Keeper',
+        content: 'Deze GitHub finder site is ontworpen met React en React-Hooks. De Hooks die in deze site worden gebruikt zijn onderandere: useContext, useState, useReducer en useEffect. De api die gebruikt wordt is die van GitHub. Met deze site kun je gebruikers zoekn op GitHub.',
+        siteLink: 'http://degrassi-minister-57593.herokuapp.com/'
     }
 ]
 
