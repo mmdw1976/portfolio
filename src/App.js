@@ -6,7 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 
 const App = () => {
-    return ( 
+    return (
         <div>
             <Header />
             <Switch>
@@ -15,7 +15,7 @@ const App = () => {
                 <Route Path="/contact" exact component={Contact} />
             </Switch>
         </div>
-     );
+    );
 }
- 
+
 export default App;
