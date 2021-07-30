@@ -18,7 +18,7 @@ const ProjectItem = ({project}) => {
         <p>
           {project.content}
         </p>
-        <button>Go to Project</button>
+        <a target='_blank' rel='noreferrer' href={project.siteLink}><button>Go to Project</button></a>
       </div>
     </Fragment>
   );

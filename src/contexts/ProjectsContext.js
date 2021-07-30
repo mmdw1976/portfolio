@@ -1,22 +1,21 @@
 import React, { createContext, useState } from 'react';
-// import movie from '../images/movie-react.jpg'
-
 
 export const ProjectContext = createContext();
-
 
 const PROJECTS = [
     {
         id: 1,
         image: '/images/movie-react.jpg',
         name: 'React Movie Site',
-        content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci natus impedit placeat, cupiditate nihil facilis qui sed ea ullam in sapiente libero saepe id delectus excepturi optio asperiores repellendus totam! Eius totam perferendis accusamus minima mollitia dolores esse nulla'
+        content: 'Deze movie search site is ontworpen met React en React-Hooks. De Hooks die in deze site worden gebruikt zijn onderandere: useContext, useState, useReducer en useEffect. Ook wordt er gebruik gemaakt van TMD api.',
+        siteLink: 'http://movie.m-webdesigner.com/'
     },
     {
         id: 2,
-        image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-        name: 'Modern JavaScript',
-        content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci natus impedit placeat, cupiditate nihil facilis qui sed ea ullam in sapiente libero saepe id delectus excepturi optio asperiores repellendus totam! Eius totam perferendis accusamus minima mollitia dolores esse nulla'
+        image: '/images/github-finder.jpg',
+        name: 'GitHub finder React',
+        content: 'Deze GitHub finder site is ontworpen met React en React-Hooks. De Hooks die in deze site worden gebruikt zijn onderandere: useContext, useState, useReducer en useEffect. De api die gebruikt wordt is die van GitHub. Met deze site kun je gebruikers zoekn op GitHub.',
+        siteLink: 'http://github-finder.m-webdesigner.com/'
     }
 ]
 
