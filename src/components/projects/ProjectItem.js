@@ -5,7 +5,6 @@ import './ProjectList.css'
 
 
 const ProjectItem = ({project}) => {
-  console.log(project)
   return (
     <Fragment>
       <div className='snippet'>
