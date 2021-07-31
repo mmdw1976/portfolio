@@ -16,3 +16,9 @@ section p {
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+}

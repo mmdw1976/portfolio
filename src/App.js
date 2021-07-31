@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 
 // import contextprovider
 import ProjectContextProvider from './contexts/ProjectsContext';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/about' exact component={About} />
           <Route Path='/contact' exact component={Contact} />
         </Switch>
+        <Footer />
       </ProjectContextProvider>
     </div>
   );
