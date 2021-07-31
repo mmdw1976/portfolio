@@ -1,5 +1,5 @@
 section {
-    width: 75%;
+    width: 80%;
     margin: 1rem auto;
     text-align: center;
 }
@@ -15,10 +15,11 @@ section h1, section p {
 section p {
     font-size: 1.2rem;
     line-height: 1.5rem;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
     section {
-        width: 90%;
+        width: 100%;
     }
 }
