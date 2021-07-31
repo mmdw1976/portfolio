@@ -6,11 +6,9 @@ import './Home.css';
 const Home = () => {
   return (
     <section>
-      <h1>Home</h1>
+      <h1>Mijn Projecten</h1>
       <p>
-        Welcome to my React Portfolio web-app. Here you can find the projects i
-        made with modern JavaScript, HTML CSS and JavaScript, and React. Click
-        on the link to go to the project of your choice.
+        Welkom op mijn React portfolio web-app. Hier vindt je alle projecten die ik heb gemaakt met moder JavaScript, HTML CSS and JavaScript and React. Click op de knop ga naar project om naar de desbetreffende project te gaan. Mocht u vragen of idee&euml;n hebben neem dan contact met me op via de contact page,  of via een van de links in de footer.
       </p>
       <ProjectList />
     </section>

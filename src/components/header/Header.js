@@ -9,8 +9,8 @@ const Header = () => {
       <Navbar />
       <div className='header-bg'></div>
       <div className='content text-shadow'>
-        <h1>Header</h1>
-        <p>Welcome to my react page</p>
+        <h1>Mario de Wolf</h1>
+        <p>Welcome to my portfolio site</p>
       </div>
     </header>
   );
