@@ -21,7 +21,7 @@ const PROJECTS = [
         id: 3,
         image: '/images/contact-keeper.jpg',
         name: 'React Contact Keeper',
-        content: 'Deze GitHub finder site is ontworpen met React en React-Hooks. De Hooks die in deze site worden gebruikt zijn onderandere: useContext, useState, useReducer en useEffect. De api die gebruikt wordt is die van GitHub. Met deze site kun je gebruikers zoekn op GitHub.',
+        content: 'Contact Keeper is ontworpen met React en React-Hooks. Het is een full-stack applicatie gemaakt doormiddel de MERN stack (MongoDB, Express, React, NodeJS). Er is onderandere gebruik gemaakt van de volgende React-Hooks: useContext, useState, useReducer en useEffect.',
         siteLink: 'http://degrassi-minister-57593.herokuapp.com/'
     }
 ]
